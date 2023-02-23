@@ -45,7 +45,6 @@ a {
     background-color:  #000000;
     width: 16rem;
     height: 100%;
-    padding: 1.5rem;
 }
 
 .side-nav {
@@ -53,6 +52,7 @@ a {
     color: #717171;
     flex-direction: column;
     justify-content: space-between;
+    padding: 1.5rem;
 }
 
 .top-nav {
@@ -75,8 +75,21 @@ a {
 /* Upgrade */
 .upgrade {
     background-color: #080B12;
+    color: #FFFFFF;
+    padding-right: 0.5rem;
+    text-align: end;
+    line-height: 6.5rem;
     height: 6.5rem;
     width: 100%;
+}
+
+.button {
+    padding: 1rem 3rem;
+    border: 1.5px solid white;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 /* Content */
@@ -84,6 +97,37 @@ a {
     background-color:  #141922;
     width: 100%;
     height: calc(100% - 6.5rem);
+    overflow: auto;
+}
+
+.category-nav {
+    color: #797C80;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.category-nav li {
+    display: inline-block;
+    padding: 1.5rem 0.8rem;
+}
+
+.category-nav li:first-child {
+    position: relative;
+    padding: 0.3rem;
+}
+
+.category-nav li:first-child::before {
+    content: "";
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 2px solid #9FFF2F;
+    width: 2rem;
 }
 
 /* Player */
