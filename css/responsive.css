@@ -11,4 +11,35 @@
     .side-nav {
         display: none;
     }
+
+    .sidebar {
+        padding: 0.3rem 0.7rem;    
+    }
+
+    .side-nav-slim {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .menu {
+        margin-top: 0.7rem;
+        padding: 0.1rem;
+        filter: contrast(50%)
+    }
+
+    .download img {
+        width: 1.1rem;
+        margin-bottom: 1.2rem;
+        filter: contrast(50%);
+    }
+
+    .profile img {
+        height: 1.8rem;
+        width: 1.8rem;
+        background-color: #808080;
+        border-radius: 50%;
+    }
 }
