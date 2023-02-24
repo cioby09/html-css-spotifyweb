@@ -33,6 +33,15 @@ a {
     color: inherit;
 }
 
+.hover-play {
+    display: none;
+    position: absolute;
+    font-size: 3rem;
+    top: 2.4rem;
+    left: 0;
+    right: 0;
+}
+
 /* Layout */
 .section {
     display: flex;
@@ -237,6 +246,7 @@ hr {
 }
 
 .card {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;

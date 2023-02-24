@@ -1,0 +1,37 @@
+.select-white:hover {
+    color: #FFFFFF;
+    filter: contrast(200%);
+}
+
+.button {
+    transition: 0.5s;
+}
+
+.button:hover {
+    padding: 1.2rem 3.5rem;
+}
+
+.player-1 .subtitle:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.function a:hover {
+    color: #FFFFFF;
+}
+
+.media-buttons li:nth-child(3) {
+    transition: 0.5s;
+}
+
+.media-buttons li:nth-child(3):hover {
+    font-size: 2.2rem;
+}
+
+.card img:hover {
+    filter: brightness(70%);
+}
+
+.card img:hover .hover-play {
+    display: inline-block;
+}
