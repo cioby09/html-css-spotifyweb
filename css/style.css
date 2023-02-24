@@ -149,6 +149,7 @@ hr {
     width: calc(100% - 16rem);
     height: 100%;
     flex-wrap: wrap;
+    overflow: auto;
 }
 
 /* Upgrade */
@@ -175,8 +176,6 @@ hr {
 .content {
     background-color:  #141922;
     width: 100%;
-    height: calc(100% - 6.5rem);
-    overflow: auto;
     padding-bottom: 2rem;
 }
 
@@ -268,6 +267,105 @@ hr {
 /* Player */
 .player {
     background-color: #282828;
+    color: #FFFFFF;
     height: 6.5rem;
     width: 100%;
+    justify-content: space-between;
+}
+
+/* Player firts part */
+.player-1 {
+    width: 16rem;
+    padding: 0.7rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player-1 .album {
+    min-width: 3rem;
+    max-width: 3rem;
+}
+
+.track {
+    gap: 0.8rem;
+    align-items: center;
+}
+
+.player-1 .track-name {
+    font-size: 0.8rem;
+}
+
+.player-1 .subtitle {
+    margin: 0;
+    font-size: 0.7rem;
+
+}
+
+.player-1 .function {
+    color: #797C80;
+    gap: 1rem;
+}
+
+/* Player second part */
+.player-2 {
+    width: 40rem;
+    padding: 0.7rem;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.media-buttons {
+    font-size: 1.1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.media-buttons li:nth-child(3) {
+    font-size: 2rem;
+}
+
+.player-bar {
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+.player-2 .bar {
+    width: 90%;
+    max-width: 30rem;
+    height: 0.2rem;
+    background-color: #5A5A5A;
+    border-radius: 0.2rem;
+}
+
+.player-2 .play-bar {
+    height: 0.2rem;
+    width: 20%;
+    background-color: #C1C1C1;
+    border-radius: 0.2rem;
+}
+
+/* Player third part */
+.player-3 {
+    padding: 0.7rem;
+    max-width: 16rem;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.8rem;
+}
+
+.player-3 .bar {
+    width: 7rem;
+    height: 0.2rem;
+    background-color: #5A5A5A;
+    border-radius: 0.2rem;
+}
+
+.player-3 .play-bar {
+    height: 0.2rem;
+    width: 2rem;
+    background-color: #C1C1C1;
+    border-radius: 0.2rem;
 }
