@@ -12,6 +12,19 @@
     .popular-artists .col {
         width: calc((100% / 4) - (1rem - (1rem / 4)));
     }
+
+    .player-1 {
+        min-width: 15rem;
+        max-width: 15rem;
+    }
+
+    .player-1 .track-info {
+        width: 5rem;
+    }
+
+    .player-3 {
+        width: 16rem;
+    }
 }
 
 /* S responsive */
@@ -21,6 +34,27 @@
     .popular-artists .col {
         width: calc(100% / 2 - (1rem - (1rem / 2)));
     }
+
+    .player-1 .function {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .player-1,
+    .player-2,
+    .player-3 {
+        width: calc(100% / 3);
+    }
+    
+    .player-1 {
+        min-width: unset;
+        gap: 8%;
+    }
+
+    .player-3 {
+        gap: 8%;
+    }
+
 }
 
 /* Xs responsive */
@@ -66,5 +100,23 @@
         width: 1.8rem;
         background-color: #808080;
         border-radius: 50%;
+    }
+
+    .player-1 .album {
+        min-width: 2rem;
+        max-width: 2rem;
+    }
+
+    .player-1 .track-info {
+        width: unset;
+    }
+
+    .player-3 {
+        justify-content: space-between;
+        gap: 0.2rem;
+    }
+
+    .player-3 .bar {
+        width: 50%;
     }
 }
